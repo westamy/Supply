@@ -63,10 +63,13 @@ a {
   padding: 0.75rem;
   text-align: center;
 
+
 }
 
 .navigation.nav{
   color: white;
+  justify-content: space-between;
+
 }
 
 .container {

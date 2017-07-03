@@ -9,6 +9,7 @@ body {
 h1 {
   font-size: 2rem;
   font-weight: bold;
+  line-height: 2.25rem;
 }
 
 h2 {
@@ -16,12 +17,15 @@ h2 {
   font-weight: bold;
 }
 
+header {
+  background-color: black;
+  color: white;
+}
+
 .logo{
   display: flex;
   align-items: center;
   padding: .66rem 0 .66rem 0.5rem;
-  background-color: black;
-  color: white;
 }
 
 .logo img {
@@ -134,21 +138,14 @@ a {
       padding: 0.5rem;
     }
 
-
-.copyright{
+    .footer {
     background-color: black;
-    display: flex;
-    height: 5rem;
-    align-items: center;
-
-  }
-
-  .right {
+    padding: 5rem 0;
+    margin-top: 4rem;
     color: white;
-    text-align: left;
-    padding: 30px;
   }
 
-  .footer {
-      width: 960px;
+  footer div {
+    height: 5rem;
+    align-items: center;
   }

@@ -1,16 +1,17 @@
-html,
+html {
+  font-size: 18px;}
+
 body {
-  font-family: Helvetica, sans-serif;
-  font-size: 18px;
-  background-color: white;
-}
+  font-family: Helvetica;
+
+  }
 
 h1 {
   font-size: 2rem;
   font-weight: bold;
 }
 
-h3 {
+h2 {
   font-size: 1rem;
   font-weight: bold;
 }
@@ -20,8 +21,8 @@ h3 {
   background-color: black;
   font-size: 1rem;
   color: white; 
-   display: flex;	 
-   align-items: center;
+  display: flex;	 
+  align-items: center;
 }
 
 .logo img {
@@ -60,3 +61,83 @@ h3 {
 .navigation.nav{
   color: white;
 }
+
+.container {
+  width: 960px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.item {
+  display: flex;
+}
+
+.product-pen {
+  border: 1px solid black;
+}
+
+.product-watch {
+  border: 1px solid black;
+}
+
+.product-glasses {
+  border: 1px solid black;
+}
+
+.band {
+  background-color: black;
+  display: block;
+}
+
+.item img {
+    width: 50%;
+}
+
+.description {
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-bottom: 4rem;
+  }
+
+  .bar {
+    background-color: black;
+    display: block;
+  }
+
+  .lowdown {
+      color: white;
+      text-align: left;
+      padding: 0.5rem;
+    }
+
+
+.copyright{
+    background-color: black;
+    display: flex;
+    height: 5rem;
+    align-items: center;
+
+  }
+
+  .right {
+    color: white;
+    text-align: left;
+    padding: 30px;
+  }
+
+  .footer {
+      width: 960px;
+  }

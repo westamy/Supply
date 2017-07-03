@@ -27,6 +27,7 @@ header {
   display: flex;
   align-items: center;
   padding: .66rem 0 .66rem 0.5rem;
+  margin: auto;
 }
 
 .logo img {
@@ -125,7 +126,7 @@ a {
   }
 
   .info {
-    display: flex;
+    display: block;
     justify-content: space-between;
     margin-bottom: 4rem;
   }
@@ -144,7 +145,7 @@ a {
     }
 
     .narrative {
-      dislplay: flex;
+      display: flex;
 
     }
 

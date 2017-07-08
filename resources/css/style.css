@@ -62,13 +62,13 @@ a {
 .navigation{
   background-color: firebrick;
   padding: 0.75rem;
-  text-align: center;
-
 
 }
 
-.navigation.nav{
+nav {
+
   color: white;
+  display: flex;
   justify-content: space-between;
 
 }
@@ -126,29 +126,85 @@ a {
   }
 
   .info {
-    display: block;
+    display: flex;
     justify-content: space-between;
     margin-bottom: 4rem;
   }
 
-  .bar {
-    background-color: black;
-    display: block;
-    width: 35%;
-    padding: 0.5rem;
-  }
 
   .lowdown {
+      background-color: black;
+      display: block;
       color: white;
       text-align: left;
       padding: 0.5rem;
     }
 
-    .narrative {
+
+    .realtime {
+      width: 35%;
+    }
+
+  @media only screen and (max-width: 1024px), (orientation: portrait) {
+    /* CSS ruleset for tablet */
+    nav {
+      display: none;
+    }
+
+    .product-glasses {
+      display: none;
+    }
+
+    .product-pen {
+      width: 47%;
+    }
+
+    .product-watch {
+      width: 47%;
+    }
+
+  }
+
+  @media only screen and (max-width: 470px) {
+    /* CSS ruleset for < 470px */
+    nav {
+      display: none;
+    }
+
+    .product-glasses {
+      display: none;
+    }
+
+    .product-pen {
+      width: 90%;
+      align-items: center;
+    }
+
+    .products {
+      justify-content: center;
+    }
+
+    .product-watch {
+        display: none;
+    }
+
+    .info {
       display: flex;
+      flex-direction:column;
+      margin-bottom: 1rem;
+      align-items: center;
 
     }
 
+    .realtime {
+      width: 90%;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+        justify-content: center;
+     }
+  }
 
   footer {
     background-color: black;

@@ -163,7 +163,7 @@ nav {
       width: 47%;
     }
 
-    .nav.mobile {
+    .mobile {
       color: white;
       display: flex;
       justify-content: center;
@@ -211,7 +211,7 @@ nav {
         text-align: center;
      }
 
-     .nav.mobile {
+    .mobile {
        color: white;
        display: flex;
        justify-content: center;
